@@ -6,7 +6,7 @@ import featureimage3 from '../images/feature_3.png';
 
 const Feature = () => {
     return(
-        <div className="features">
+        <div id="features" className="features">
             <div className="a-container">
                 <FeatureBox image={featureimage1} title="Development Course"/>
                 <FeatureBox image={featureimage2} title="Development Course"/>
